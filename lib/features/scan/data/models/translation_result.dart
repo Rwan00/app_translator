@@ -41,3 +41,4 @@ class TranslationResult extends Equatable {
   @override
   List<Object?> get props => [id, translation, confidence, signsDetected];
 }
+

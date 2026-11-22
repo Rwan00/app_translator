@@ -51,3 +51,4 @@ class ScanState extends Equatable {
         debugMode,
       ];
 }
+

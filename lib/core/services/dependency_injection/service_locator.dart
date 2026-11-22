@@ -13,3 +13,4 @@ class ServiceLocator {
     sl.registerFactory<ScanCubit>(() => ScanCubit(sl<ScanRepository>()));
   }
 }
+

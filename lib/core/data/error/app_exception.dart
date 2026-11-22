@@ -16,3 +16,4 @@ class ServerFailure extends Failure {
 class NoInternetFailure extends Failure {
   const NoInternetFailure(super.errorMessage);
 }
+
