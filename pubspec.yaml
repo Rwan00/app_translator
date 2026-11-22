@@ -1,5 +1,5 @@
 name: app_translator
-description: "Scan Result translation app built with Feature-First Clean Architecture."
+description: "GlyphScan translation app built with Feature-First Clean Architecture."
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -57,12 +57,9 @@ flutter_launcher_icons:
 
 flutter_native_splash:
   color: "#0B0B0B"
-  color_dark: "#0B0B0B"
   image: "assets/logo/app_logo.png"
-  android_gravity: center
-  ios_content_mode: scaleAspectFit
+  color_dark: "#0B0B0B"
+  image_dark: "assets/logo/app_logo.png"
   android_12:
     color: "#0B0B0B"
     image: "assets/logo/app_logo.png"
-    android_gravity: center
-    ios_content_mode: scaleAspectFit

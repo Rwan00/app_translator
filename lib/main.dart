@@ -9,8 +9,6 @@ import 'features/scan/presentation/view_model/scan_cubit.dart';
 
 Future<void> main() async {
   final widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
-
-  // Preserve native splash screen while initializing resources
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
 
   await EasyLocalization.ensureInitialized();
@@ -33,10 +31,7 @@ Future<void> main() async {
     ),
   );
 
-  // Remove native splash screen once initial frame is rendered
-  WidgetsBinding.instance.addPostFrameCallback((_) {
-    FlutterNativeSplash.remove();
-  });
+  FlutterNativeSplash.remove();
 }
 
 class AppTranslatorApp extends StatelessWidget {
