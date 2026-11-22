@@ -1,4 +1,4 @@
-# App Translator — Scan Result Flow
+# GlyphLens — Ancient Inscription & Scan Translator
 
 A production-grade Flutter application implementing the **Scan & Translate** flow, built following the **Feature-First Clean Architecture** and conventions from `customer_new_app`.
 
@@ -6,7 +6,12 @@ A production-grade Flutter application implementing the **Scan & Translate** flo
 
 ## 📱 Features & Highlights
 
-1. **Scan Screen**:
+1. **Brand Identity & Native Splash**:
+   * App Name: **GlyphLens** (Android & iOS).
+   * Custom modern App Icon: High-res dark background (`#0B0B0B`) featuring a golden-yellow (`#F5C518`) scanner viewfinder and hieroglyphic emblem.
+   * Native Splash Screen (`flutter_native_splash`): Seamless dark launch screen eliminating startup white-flash before the first frame is rendered.
+
+2. **Scan Screen**:
    * Pick an image from the **Camera** or **Gallery** via `image_picker`.
    * Live image preview with aspect ratio constraints.
    * Primary **Translate** action button (disabled until an image is chosen).
